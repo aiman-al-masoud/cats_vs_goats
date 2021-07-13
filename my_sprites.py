@@ -6,12 +6,12 @@ Created on Tue Jul 13 18:18:18 2021
 @author: aiman
 """
 
-import pygame, random
+import pygame, random, os
 
 #CONSTANTS:
-PLAYER_IMG_PATH ="cat.png" 
-ENEMY_IMG_PATH = "goat.png"
-BULLET_IMG_PATH = "fish.png"
+PLAYER_IMG_PATH ="res"+os.sep+"cat.png" 
+ENEMY_IMG_PATH = "res"+os.sep+"goat.png"
+BULLET_IMG_PATH = "res"+os.sep+"fish.png"
 
 #CUSTOM EVENTS
 ENEMY_HIT = pygame.event.Event(pygame.USEREVENT, attr1 = "ENEMY_HIT")
@@ -66,8 +66,16 @@ class MySprite():
         if self.current_direction == "L":
             hor_flip = True
             
-            
+        
         transf_image = pygame.transform.flip(self.image, hor_flip , False)
+        
+        
+        if self.current_direction == "U":
+            transf_image = pygame.transform.rotate(transf_image, 90)
+        if self.current_direction == "D":
+            transf_image = pygame.transform.rotate(transf_image, -90)
+
+        
         
         
         window.blit(transf_image, (self.rect.x, self.rect.y))
