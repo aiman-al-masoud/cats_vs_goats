@@ -9,9 +9,9 @@ Created on Tue Jul 13 18:18:18 2021
 import pygame, random, os
 
 #CONSTANTS:
-PLAYER_IMG_PATH ="res"+os.sep+"cat.png" 
-ENEMY_IMG_PATH = "res"+os.sep+"goat.png"
-BULLET_IMG_PATH = "res"+os.sep+"fish.png"
+PLAYER_IMG_PATH =  ".."+os.sep+"res"+os.sep+"cat.png" 
+ENEMY_IMG_PATH = ".."+os.sep+"res"+os.sep+"goat.png"
+BULLET_IMG_PATH = ".."+os.sep+"res"+os.sep+"fish.png"
 
 #CUSTOM EVENTS
 ENEMY_HIT = pygame.event.Event(pygame.USEREVENT, attr1 = "ENEMY_HIT")

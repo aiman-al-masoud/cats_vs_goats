@@ -13,7 +13,7 @@ FPS = 60
 #THE GAME'S CLOCK
 CLOCK = pygame.time.Clock()
 #GAMEOVER IMAGE
-GAME_OVER_IMG = pygame.image.load("res"+os.sep+"game_over.png")
+GAME_OVER_IMG = pygame.image.load(".."+os.sep+"res"+os.sep+"game_over.png")
 #GAME OVER FLAG
 GAME_OVER = False
 #score = goats taken down
