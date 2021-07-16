@@ -4,6 +4,10 @@ A totally lame and demented 2D shooter done with pygame.
 ## Description:
 Goats have issued an ultimatum to their natural enemies: the cats! Take control of a veteran, tuna-fish-shooting commando-cat, as he endures the last stand againts a wave of... unrelenting goats!
 
+## Preview:
+
+[![cats_vs_goats](http://i3.ytimg.com/vi/jl42jNb3qrA/hqdefault.jpg)]( https://www.youtube.com/watch?v=jl42jNb3qrA&feature=youtu.be)
+
 ## Controls:
 Arrow keys to move, space to shoot.
 
@@ -18,11 +22,9 @@ Arrow keys to move, space to shoot.
 * (With pip):
 pip install pygame
 
-## Credits
+## Credits:
 All of the sprites' icons come from this website:
 https://www.flaticon.com/
 
 
-
-![http://i3.ytimg.com/vi/jl42jNb3qrA/hqdefault.jpg]( https://www.youtube.com/watch?v=jl42jNb3qrA&feature=youtu.be)
 
