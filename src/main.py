@@ -127,7 +127,6 @@ while RUNNING:
        #HANDLE ENEMY-HIT EVENT
        if event == my_sprites.ENEMY_HIT:
            enemy.hit()
-           print(enemy.health)
         
        #HANDLE PLAYER_WAS_HIT EVENT
        if event == my_sprites.PLAYER_WAS_HIT:
