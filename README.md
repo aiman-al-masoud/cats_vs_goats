@@ -7,6 +7,13 @@ Goats have issued an ultimatum to their natural enemies: the cats! Take control 
 ## Controls:
 Arrow keys to move, space to shoot.
 
+## How to play it:
+(Assuming you don't have anything better to do)
+* make sure python 3 is installed
+* install the pygame library
+* clone/download this repo 
+* run the main.py file  (eg: "python3 main.py" on a shell) 
+
 ## Make sure you've got pygame installed:
 * (With pip):
 pip install pygame
