@@ -24,5 +24,5 @@ https://www.flaticon.com/
 
 
 
-![]( https://www.youtube.com/watch?v=jl42jNb3qrA&feature=youtu.be)
+![http://i3.ytimg.com/vi/jl42jNb3qrA/hqdefault.jpg]( https://www.youtube.com/watch?v=jl42jNb3qrA&feature=youtu.be)
 
