@@ -6,6 +6,8 @@ Goats have issued an ultimatum to their natural enemies: the cats! Take control 
 
 ## Preview:
 
+* (click to play video)
+
 [![cats_vs_goats](http://i3.ytimg.com/vi/jl42jNb3qrA/hqdefault.jpg)]( https://www.youtube.com/watch?v=jl42jNb3qrA&feature=youtu.be)
 
 ## Controls:
